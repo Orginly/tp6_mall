@@ -84,7 +84,7 @@
 
 
         $('body').on('click', '.child-ele', function () {
-            let pid = $(this).attr('data-id') ; // 这个地方需要 修改 pid => data-id  by singwa
+            let pid = $(this).attr('data-id') ; // 这个地方需要 修改 pid => data-id
             let type = $(this).parent().attr('type');
             let pcls = '.p-' + (1 + parseInt(type));
 

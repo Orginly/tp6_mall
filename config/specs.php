@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by singwa
- * User: singwa
- * motto: 现在的努力是为了小时候吹过的牛逼！
- * Time: 03:41
- */
+
 return [
     ["id" => 1, "name" => "颜色"],
     ["id" => 2, "name" => "尺码"],

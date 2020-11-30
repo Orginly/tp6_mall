@@ -1,6 +1,5 @@
 <?php
 use think\facade\Route;
-
 //发送验证码
 Route::rule('sendcode','sms/sendcode','POST');
 //用户登录

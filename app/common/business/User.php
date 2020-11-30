@@ -34,7 +34,7 @@ class User
         //获取存放在redis的验证码
         $redisCode = cache(config('redis.code_pre') . $phone);
         if (!$redisCode || $redisCode != $code) {
-//            throw new Exception('验证码不正确');
+            throw new Exception('验证码不正确');
         }
         //如果用户表中不存在则添加记录
         $user = $this->userObj->getUserByPhone($phone);
